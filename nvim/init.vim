@@ -26,7 +26,8 @@ source $HOME/.config/nvim/finding.vim
     "set number              " Show number ruler
     set cursorline          " Highlight the current line for the cursor
     " set lazyredraw          " Keep scrolling speedy
-    set formatoptions+=o    " Continue comment marker in new lines.
+    " set formatoptions+=o    " Continue comment marker in new lines.
+    set formatoptions-=l    " Wrap long lines
     "set textwidth=0         " Hard-wrap long lines as you type them.
     set expandtab           " Insert spaces when TAB is pressed.
     set tabstop=2           " Render TABs using this many spaces.
