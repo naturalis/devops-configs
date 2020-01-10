@@ -22,5 +22,14 @@ Plug 'rodjek/vim-puppet'
 " Dockerfile
 Plug 'ekalinin/Dockerfile.vim'
 
+" Go
+Plug 'fatih/vim-go'
+
+" JSON
+Plug 'elzr/vim-json'
+
+" YAML
+Plug 'stephpy/vim-yaml'
+
 " Initialize plugin system
 call plug#end()
